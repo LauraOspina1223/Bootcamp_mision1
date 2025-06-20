@@ -1,0 +1,49 @@
+p{ /*todo lo que yo marque con la etiqueta "p" me queda blue*/
+    color: rgb(3, 3, 99);
+    }
+h2{
+        color: rgb(83, 26, 148);
+        font-size: 21px; 
+}
+
+/*body{
+
+    background-color: blueviolet;
+
+}*/
+
+.estiloRed{ /*el punto es para las clases, aquí se uitiliza "." para llamarlo con "class"*/
+    color: red;
+    }
+
+.estiloGreen{ /*el punto es para las clases, aquí se uitiliza "." para llamarlo con "class"*/
+    color: rgb(29, 61, 8);
+    }
+
+#estiloPink{ /*este se utiliza para llamarlo con "id", se utiliza # */
+    color: rgb(105, 26, 59);
+    }
+
+h1 {
+    text-align: center;
+    margin-inline: 450px;
+    background-color: rgb(197, 111, 133);
+    margin-bottom: 6vw;
+    margin-top: 8vw;
+    color: rgb(29, 129, 4);
+    font-size: 25px;
+   } 
+
+/*  body {
+    /* text-align: center; */
+    /* } */
+   
+/* Para hacer que todo el texto de la página quede centrada*/
+
+.pad{
+    background-color: rgb(216, 187, 243);
+    margin-inline: 60px;
+    /* margin-right: 300px; */
+   }
+/* Este es para las márgenes de los lados */
+   

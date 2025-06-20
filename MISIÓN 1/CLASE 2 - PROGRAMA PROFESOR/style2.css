@@ -1,0 +1,57 @@
+/* p {
+  color: blue;
+}
+ */
+
+h1 {
+  margin-bottom: 8vw;  
+  color: #157508;
+  font-size: 21px;
+}
+
+/* body{
+    background-color: blueviolet;
+} */
+
+.pad{
+    padding-top: 30px;
+    /* background-color: #157508; */
+    margin: 0px 25%;
+} 
+
+.estiloPArrafo{
+    color: rgb(4, 122, 87);
+}
+
+/* Botón con estilos */
+
+.btn-old{
+display:inline-block; /* Me crea la cajita del botón */
+font-weight: 400; /* Grosor de la letra */
+color: #fff; /* Coolor de la letra */
+text-align: center; /* Centra el texto dentro del botón */
+vertical-align: middle; /* Ayuda a alinear con otros elementos dentro de la misma página */
+user-select: none; /* No permite seleccionar el texto del botón como para dar Ctrl+c Ctrl+v */
+background-color: #007bff; /* Color de fondo */
+border: 1px solid #007bff; /* Ese solid que para que se sólido, también hay en punticos */
+padding: 0.375rem 0.75rem; /* Relleno del botón - 0.375 me lo toma para vertical, es decir, para arriba y para alabajo - El segundo como horizontal, tanto para un lado como para el otro */
+font-size: 1rem; /* Tamaño fuente */
+line-height: 1.5; /* Interlineado */
+border-radius: 0.25rem; 
+transition: background-color 0.15s ease-out,
+            border-color 0.15s ease-in-out,
+            box-shadow 0.15s ease-in-out;
+cursor: pointer; /* Efecto manita */
+text-decoration: none; /* quitar el subrayado */
+
+}
+
+.btn-old:hover{
+background-color: #0056b3; /* cambia de color cuando paso el mouse */
+border-color: #0056b3;
+}
+
+.btn-old:focus{
+outline: none; /* El foco es es color que me queda alrededor del botón */
+box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5); 
+  }

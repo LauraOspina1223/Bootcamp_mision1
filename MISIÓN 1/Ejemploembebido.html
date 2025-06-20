@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemploembedido</title>
+    
+</head>
+
+<body>
+    <p>Haz clic en este párrafo 1</p>
+    <p>Haz clic en este párrafo 2</p>
+    <p>Haz clic en este párrafo 3</p>
+    <script>
+        const parrafos=document.querySelectorAll("p"); /* seleccione todas las etiquetas del tipo p */
+        parrafos.forEach(function(p){
+            p.onclick= function(){    
+                alert("Haz hecho click en"+this.textContent)
+            }
+        })
+    </script>
+</body>
+</html>
+
