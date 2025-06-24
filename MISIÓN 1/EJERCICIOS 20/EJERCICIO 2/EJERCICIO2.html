@@ -4,26 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC</title>
-    <link rel="stylesheet" href="./">
+    <link rel="stylesheet" href="./EJERCICIO2.css">
 </head>
 <body>
-    <h1>Índice de masa corporal</h1>
-    <p>Por favor ingresa los siguientes datos para conocer tu índice de masa corporal:</p>
-
-    <p>Escribe tu nombre:</p>
-    <input type="text" id="nombre" placeholder="Ej: Juanito Pérez">
-
-    <p>Escribe tu peso en kg:</p>
-    <input type="number" id="peso" placeholder="Ej: 65">
-
-    <p>Escribe tu estatura en cm:</p>
-    <input type="number" step="0.01" id="estatura" placeholder="Ej: 1.70"> <!-- step permite que se muestren decimales de hasta dos cifras, es decir, el usuario puede escribir o seleccionar valores -->
-
-    <button onclick="calcularIMC()">Calcular IMC</button>
-
-    <!-- Aquí se muestra el resultado -->
-    <p id="resultado"></p>
-
-    <script src="js/IMC.js"></script>  
+    <h1>Contador de clics</h1>
+    <button id="incrementar">Clic</button>
+    <button id="reset">Reset</button>
+    <div id="valor-contador">0</div>
+    
+    <script src="EJERCICIO2.js"></script>  
 </body>
 </html>
